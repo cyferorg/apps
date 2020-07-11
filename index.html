@@ -28,7 +28,7 @@
 	<link href="css/magnific-popup.css" rel="stylesheet">
 	<link href="css/slideshow.css" rel="stylesheet">
 	<link href="css/styles.css" rel="stylesheet">
-	
+	<link href="css/popup.css" rel="stylesheet">
 	<!-- Favicon  -->
     <link rel="icon" href="images/favicon.png">
 
@@ -187,6 +187,10 @@
                             </li>
 							<li class="media">
                                 <i class="fas fa-square"></i>
+                                <div class="media-body">Completely free 'lite' version as well as an enhanced version with additional animations, poster and no artificial limits on number of images and resolution.</div>
+                            </li>
+							<li class="media">
+                                <i class="fas fa-square"></i>
                                 <div class="media-body"><a href="https://cyferorg.github.io/zoetic/"> In-depth Android instructions</a> </div>
                             </li>
 							<li class="media">
@@ -196,7 +200,16 @@
                         </ul>
 						<a href="https://apps.apple.com/us/app/id1463170776">
 						<img src="images/appstore.png" alt="alternative" width="100"></a>
-						<a href="https://play.google.com/store/apps/details?id=uk.cyferltd.zoeticpro"><img src="images/googlestore.png" alt="alternative"  width="100"></a>
+						<a href="https://play.google.com/store/apps/details?id=uk.cyferltd.zoetic"><img src="images/googlestore.png" alt="alternative"  width="100"></a>
+						<a href="https://appgallery1.huawei.com/#/app/C100841611"><img src="images/huaweistore.png" alt="alternative"  width="100"></a>
+						<div class="popup" onclick="myFunction('zoeticsamsung')">
+							<span class="popuptext" id="zoeticsamsung">Download via Galaxy app</span>
+							<img src="images/galaxystore.png" alt="alternative"  width="100">
+						</div>
+						<div class="popup" onclick="myFunction('zoeticamazon')">
+							<span class="popuptext" id="zoeticamazon">Download via Amazon app</span>
+							<img src="images/amazonstore.png" alt="alternative"  width="100">
+						</div> 
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
 				<div class="col-lg-6">
@@ -418,7 +431,31 @@
                             </li>
                         </ul>
                         
-						<!--  https://apps.apple.com/us/app/id1508781153 -->
+						<a href="https://apps.apple.com/us/app/id1508781153"><img src="images/appstore.png" alt="alternative"  width="100"></a>
+						
+						<a href="https://play.google.com/store/apps/details?id=uk.cyferltd.familymonitor"><img src="images/googlestore.png" alt="alternative"  width="100"></a>
+						
+						<div class="popup" onclick="myFunction('familymonitorsamsung')">
+							<span class="popuptext" id="familymonitorsamsung">Download via Galaxy app</span>
+							<img src="images/galaxystore.png" alt="alternative"  width="100">
+						</div>
+						
+						<a href="https://www.microsoft.com/en-gb/p/family-monitor/9nxjj2w41ddn?activetab=pivot:overviewtab"><img src="images/windowsstore.png" alt="alternative"  width="100"></a>
+						
+						<div class="popup" onclick="myFunction('familymonitoramazon')">
+							<span class="popuptext" id="familymonitoramazon">Download via Amazon app</span>
+							<img src="images/amazonstore.png" alt="alternative"  width="100">
+						</div> 
+						<div class="popup" onclick="myFunction('familymonitorfiretv')">
+							<span class="popuptext" id="familymonitorfiretv">Download using the store on Fire TV or Android tv</span>
+							<img src="images/firetvstore.png" alt="alternative"  width="100">
+						</div>
+						<div class="popup" onclick="myFunction('familymonitorxbox')">
+							<span class="popuptext" id="familymonitorxbox">Download via Xbox store</span>
+							<img src="images/xboxone.png" alt="alternative"  width="100">
+						</div>
+						
+						
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
 				<div class="col-lg-6">
@@ -577,5 +614,6 @@
     <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
     <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
+	<script src="js/popup.js"></script>
 </body>
 </html>
